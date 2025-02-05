@@ -15,11 +15,10 @@
         </repository>
     </repositories>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.firebirdsql.jdbc/jaybird -->
         <dependency>
             <groupId>org.firebirdsql.jdbc</groupId>
             <artifactId>jaybird</artifactId>
-            <version>6.0.0</version>
+            <version>6.0.0</version> <!-- Substitua pela versão mais recente -->
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.ini4j/ini4j -->
         <dependency>
@@ -35,9 +34,9 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
         <dependency>
-            <groupId>org.hibernate.orm</groupId>
+            <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>6.6.5.Final</version>
+            <version>5.4.30.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api -->
         <dependency>
