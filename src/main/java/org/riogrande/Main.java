@@ -2,8 +2,8 @@ package org.riogrande;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.riogrande.util.HibernateUtil;
-import org.riogrande.entidade.Study; // Supondo que você tenha a entidade Study
+import org.riogrande.util.hibernateorm.HibernateUtil;
+import org.riogrande.util.hibernateorm.entidade.Study;
 
 public class Main {
     public static void main(String[] args) {
